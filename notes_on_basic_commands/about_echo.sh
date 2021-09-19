@@ -10,3 +10,6 @@ echo * | grep some --color
 # some as ls
 # because before echo, shell has expanded * to the file names
 # echo is a good way to observe them (for special chars for other commands)
+
+echo "aaaa" >> somefile  # append at the end (at a new line)
+echo "aaaa" > somefile # replace the file (file can be not there at first)
